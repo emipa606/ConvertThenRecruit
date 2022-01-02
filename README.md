@@ -6,6 +6,14 @@
 Adds a prisoner-interaction to first convert prisoner and then recruit them.
 When they get converted their interaction mode is automatically set to Recruit.
 
+Due to requests there is also an option to first reduce resistance before converting. 
+This can be disabled in the options.
+
+If you like this one, take a look at my other prisoner interaction-mods
+https://steamcommunity.com/sharedfiles/filedetails/?id=2705395014]Convert Then Enslave
+and
+https://steamcommunity.com/sharedfiles/filedetails/?id=2506029522]Release When Healthy
+
 Idea by: Blorpmeister
 
 ![Image](https://i.imgur.com/O0IIlYj.png)

@@ -27,6 +27,12 @@ public static class WorkGiver_Warden_Convert_JobOnThing
             return;
         }
 
+        if (pawn2.Ideo == Faction.OfPlayer.ideos.PrimaryIdeo)
+        {
+            pawn2.guest.interactionMode = PrisonerInteractionModeDefOf.AttemptRecruit;
+            return;
+        }
+
         if (pawn2.Ideo != pawn.Ideo && pawn2.guest.ideoForConversion == null)
         {
             pawn2.guest.ideoForConversion = Faction.OfPlayer.ideos.PrimaryIdeo;
