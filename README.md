@@ -4,7 +4,7 @@
 
 
 Adds a prisoner-interaction to first convert prisoner and then recruit them.
-When they get converted their interraction mode is automatically set to Recruit.
+When they get converted their interaction mode is automatically set to Recruit.
 
 Idea by: Blorpmeister
 

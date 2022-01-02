@@ -4,14 +4,13 @@ using Verse;
 
 namespace ConvertThenRecruit;
 
-[HarmonyPatch(typeof(WorkGiver_Warden_Convert), "JobOnThing")]
-public static class WorkGiver_Warden_Convert_JobOnThing
+[HarmonyPatch(typeof(WorkGiver_Warden_Chat), "JobOnThing")]
+public static class WorkGiver_Warden_Chat_JobOnThing
 {
-    public static void Prefix(Thing t, Pawn pawn, out bool __state)
+    public static void Prefix(Thing t, out bool __state)
     {
         var pawn2 = (Pawn)t;
         __state = false;
-
         if (pawn2?.guest == null)
         {
             return;
@@ -22,17 +21,12 @@ public static class WorkGiver_Warden_Convert_JobOnThing
             return;
         }
 
-        if (ConvertThenRecruitMod.instance.Settings.ReduceResistance && pawn2.guest.resistance > 0f)
+        if (!ConvertThenRecruitMod.instance.Settings.ReduceResistance || pawn2.guest.resistance <= 0f)
         {
             return;
         }
 
-        if (pawn2.Ideo != pawn.Ideo && pawn2.guest.ideoForConversion == null)
-        {
-            pawn2.guest.ideoForConversion = Faction.OfPlayer.ideos.PrimaryIdeo;
-        }
-
-        pawn2.guest.interactionMode = PrisonerInteractionModeDefOf.Convert;
+        pawn2.guest.interactionMode = PrisonerInteractionModeDefOf.ReduceResistance;
         __state = true;
     }
 
