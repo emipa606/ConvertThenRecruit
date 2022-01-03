@@ -19,6 +19,11 @@ public static class Pawn_IdeoTracker_IdeoConversionAttempt
             return;
         }
 
+        if (___pawn.Ideo != Faction.OfPlayer.ideos.PrimaryIdeo)
+        {
+            return;
+        }
+
         ___pawn.guest.interactionMode = PrisonerInteractionModeDefOf.AttemptRecruit;
         var text = "CTR.pawnconverted".Translate(___pawn.NameFullColored);
         var messageType = MessageTypeDefOf.PositiveEvent;
