@@ -1,5 +1,8 @@
 # Changelog for ConvertThenRecruit
 
+1.3.5 - Turkish translation added, thanks Kegrine!
+
+
 1.3.4 - Russian translation added, thanks Vyacheslav!
 
 

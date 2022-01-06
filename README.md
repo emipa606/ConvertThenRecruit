@@ -16,6 +16,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2506029522]Release When H
 
 Idea by: Blorpmeister
 
+Russian translation by: Vyacheslav
+
 ![Image](https://i.imgur.com/O0IIlYj.png)
 
 Since modding is just a hobby for me I expect no donations to keep modding. If you still want to show your support you can gift me anything from my https://store.steampowered.com/wishlist/id/Mlie]Wishlist or buy me a cup of tea.
