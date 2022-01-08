@@ -7,7 +7,7 @@ namespace ConvertThenRecruit;
 /// </summary>
 internal class ConvertThenRecruitSettings : ModSettings
 {
-    public bool ReduceResistance = true;
+    public bool ReduceResistance;
 
     /// <summary>
     ///     Saving and loading the values
@@ -15,6 +15,6 @@ internal class ConvertThenRecruitSettings : ModSettings
     public override void ExposeData()
     {
         base.ExposeData();
-        Scribe_Values.Look(ref ReduceResistance, "ReduceResistance", true);
+        Scribe_Values.Look(ref ReduceResistance, "ReduceResistance");
     }
 }

@@ -17,6 +17,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2506029522]Release When H
 Idea by: Blorpmeister
 
 Russian translation by: Vyacheslav
+Turkish translation by: Kegrine
 
 ![Image](https://i.imgur.com/O0IIlYj.png)
 
