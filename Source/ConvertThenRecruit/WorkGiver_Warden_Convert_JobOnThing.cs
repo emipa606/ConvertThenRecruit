@@ -12,6 +12,11 @@ public static class WorkGiver_Warden_Convert_JobOnThing
         var pawn2 = (Pawn)t;
         __state = false;
 
+        if (pawn2?.IsPrisonerOfColony == false)
+        {
+            return;
+        }
+
         if (pawn2?.guest == null)
         {
             return;

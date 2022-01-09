@@ -14,6 +14,11 @@ public static class Pawn_IdeoTracker_IdeoConversionAttempt
             return;
         }
 
+        if (!___pawn.IsPrisonerOfColony)
+        {
+            return;
+        }
+
         if (___pawn.guest.interactionMode != ConvertThenRecruit.ConvertThenRecruitMode)
         {
             return;
