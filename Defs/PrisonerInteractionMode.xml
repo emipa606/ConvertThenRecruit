@@ -5,5 +5,6 @@
     <label>convert then recruit</label>
     <description>Wardens will attempt to convert the prisoner to their Ideology, and only when they have converted will they start recruiting them.</description>
     <listOrder>23</listOrder>
+    <allowOnWildMan>False</allowOnWildMan>
   </PrisonerInteractionModeDef>
 </Defs>
