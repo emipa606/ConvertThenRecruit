@@ -1,5 +1,8 @@
 # Changelog for ConvertThenRecruit
 
+1.3.12 - Added incompatibility with the new custom interactions-mod
+
+
 1.3.11 - Wild pawns must now be tamed before the convert option is shown, the same as in vanilla
 
 
