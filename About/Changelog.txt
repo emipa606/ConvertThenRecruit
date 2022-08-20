@@ -1,5 +1,9 @@
 # Changelog for ConvertThenRecruit
 
+1.3.13 - German translation added, thank you mezen!.
+Used DeepL to update translations for Japanese
+
+
 1.3.12 - Added incompatibility with the new custom interactions-mod
 
 
