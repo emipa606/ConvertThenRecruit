@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CTR.pawnconverted>{0} wurde bekehrt, er wird jetzt rekrutriert.</CTR.pawnconverted>
+  <CTR.reduceresistance.label>Widerstand reduzieren vor dem Bekehren</CTR.reduceresistance.label>
+  <CTR.reduceresistance.description>Wenn aktiviert, wird der Widerstand von Gefangenen vor einem Versuch der Bekehrung reduziert</CTR.reduceresistance.description>
+  <CTR.version.label>Installierte Mod-Version: {0}</CTR.version.label>
+</LanguageData>
