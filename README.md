@@ -23,6 +23,7 @@ Idea by: Blorpmeister
 
 Russian translation by: Vyacheslav
 Turkish translation by: Kegrine
+German translation by: mezen
 Japanese translation from: https://rimworld.2game.info/detail.php?id=2702584632]RimWorld Mod database
 
 ![Image](https://i.imgur.com/O0IIlYj.png)
