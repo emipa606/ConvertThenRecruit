@@ -1,5 +1,9 @@
 # Changelog for ConvertThenRecruit
 
+1.4.2 - Fixed the unrecuitable being recruitable.
+Used DeepL to update translations for ChineseSimplified, French
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
