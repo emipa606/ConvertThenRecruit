@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TabulaRasa.UpdateDef Abstract="true" Name="ConvertThenRecruit_UpdateInfoBase">
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2702584632</linkUrl>
+		<banner>UpdateInfo/ConvertThenRecruit</banner>
+	</TabulaRasa.UpdateDef>
+	<TabulaRasa.UpdateDef ParentName="ConvertThenRecruit_UpdateInfoBase">
+		<defName>ConvertThenRecruit_1_4_2</defName>
+		<date>2024/3/22</date>
+		<content>This mod will no longer be updated. 
+I have combined the features of this mod with the other prisoner-interaction mods I have made.
+The new mod is called Custom Prisoner Interactions, please switch to that mod to continue using this feature.
+https://steamcommunity.com/sharedfiles/filedetails/?id=2841231775</content>
+	</TabulaRasa.UpdateDef>
+</Defs>
+
